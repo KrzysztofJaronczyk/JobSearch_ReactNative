@@ -14,7 +14,7 @@ const Popularjobs = () => {
     num_pages: 1,
   });
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <View style={styles.container}>
@@ -31,7 +31,7 @@ const Popularjobs = () => {
           <Text>Something went wrong...</Text>
         ) : (
           <FlatList
-            data={data} // Use fetched data here
+            data={data}
             renderItem={({ item }) => <PopularJobCard item={item} />}
             keyExtractor={item => item?.job_id}
             contentContainerStyle={{ columnGap: SIZES.medium }}
