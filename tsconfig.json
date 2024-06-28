@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "hook/useFetch.js", "app/job-details/[id].tsx"  ]
+, "hook/useFetch.js", "app/job-details/[id].jsx", "app/_layout.jsx", "app/index.jsx"  ]
 }
