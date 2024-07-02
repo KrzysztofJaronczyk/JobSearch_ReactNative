@@ -1,8 +1,23 @@
-# Welcome to your Expo app 👋
+# 👋 Job Search App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native app that will help you find your dream job. This app uses the JSearch API to fetch data about job offers. 
+You can find the API [here](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch). I left my api keys for quick app setup and testing purpeses.
 
-## Get started
+
+## App visual presentation:
+![image](https://github.com/KrzysztofJaronczyk/JobSearch_ReactNative/assets/92089680/6a760903-9b81-4610-8a5e-1f65650dcb25)
+
+## App made using:
+- React Native
+- Expo
+
+## App Features:
+- 🔍 Fetching data about job offers
+- 📝 Job Search
+- 🌐 Redirecting to the original offer
+- 📄 Pagination
+
+## Get Started
 
 1. Install dependencies
 
@@ -15,36 +30,8 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
     npx expo start
    ```
+3. Scan the QR Code via 'Expo Go' app or click 'w' to run the app on browser.
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![React Native](https://img.icons8.com/color/48/000000/react-native.png)
+![Expo](https://img.icons8.com/ios-filled/50/000000/expo.png)
