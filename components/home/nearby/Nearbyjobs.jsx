@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Text, TouchableOpacity, ActivityIndicator } from "react-native";
+import { ActivityIndicator, Text, TouchableOpacity, View } from "react-native";
 
 import styles from "./nearbyjobs.style";
 import { COLORS } from "../../../constants";
@@ -25,7 +25,7 @@ const Nearbyjobs = () => {
 
       <View style={styles.cardsContainer}>
         {isLoading ? (
-          <ActivityIndicator size='large' color={COLORS.primary} />
+          <ActivityIndicator size="large" color={COLORS.primary} />
         ) : error ? (
           <Text>Something went wrong</Text>
         ) : (
